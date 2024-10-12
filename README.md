@@ -32,9 +32,8 @@ Instal Dependensi Tambahan
 ```
 npm install --save dotenv @nomiclabs/hardhat-ethers ethers prompt-sync
 ```
-```
-Install dependensi yang diperlukan:
 
+Install dependensi yang diperlukan:
 ```
 npm install
 ```
