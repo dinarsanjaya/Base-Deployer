@@ -21,9 +21,9 @@ Ikuti langkah-langkah berikut untuk menginstal dan mengkonfigurasi project ini:
 
 1. Clone repository ini ke dalam folder lokal Anda:
 
-   ```bash
-   git clone https://github.com/username/Base-Deployer.git
-   cd Base-Deployer
+```
+git clone https://github.com/username/Base-Deployer.git
+cd Base-Deployer
 Install dependensi yang diperlukan:
 
 ```bash
@@ -35,6 +35,11 @@ PRIVATE_KEY=your_private_key_here
 BASE_RPC_URL=https://base-mainnet.g.alchemy.com/v2/your_alchemy_api_key
 ```
 Kompilasi dan Deploy
-```bash
+1. Kompilasi smart contract:
+```
 npx hardhat compile
+```
+2. Jalankan skrip deploy:
+```
+npx hardhat run scripts/deploy.js --network base
 ```
