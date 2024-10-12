@@ -26,7 +26,7 @@ git clone https://github.com/username/Base-Deployer.git
 cd Base-Deployer
 Install dependensi yang diperlukan:
 
-```bash
+```
 npm install
 ```
 Buat file .env di root folder project dan tambahkan private key serta RPC URL:
