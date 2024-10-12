@@ -24,6 +24,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan mengkonfigurasi project ini:
 ```
 git clone https://github.com/username/Base-Deployer.git
 cd Base-Deployer
+```
 Install dependensi yang diperlukan:
 
 ```
