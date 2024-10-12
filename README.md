@@ -25,6 +25,14 @@ Ikuti langkah-langkah berikut untuk menginstal dan mengkonfigurasi project ini:
 git clone https://github.com/username/Base-Deployer.git
 cd Base-Deployer
 ```
+```
+npm install --save-dev hardhat
+```
+Instal Dependensi Tambahan
+```
+npm install --save dotenv @nomiclabs/hardhat-ethers ethers prompt-sync
+```
+```
 Install dependensi yang diperlukan:
 
 ```
