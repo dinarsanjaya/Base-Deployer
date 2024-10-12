@@ -28,6 +28,10 @@ cd Base-Deployer
 ```
 npm install --save-dev hardhat
 ```
+Inisialisasi Hardhat
+```
+npx hardhat
+```
 Instal Dependensi Tambahan
 ```
 npm install --save dotenv @nomiclabs/hardhat-ethers ethers prompt-sync
